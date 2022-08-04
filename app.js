@@ -38,7 +38,7 @@ app.post("/", function(req, res){
 
     const options = {
         method : "POST",
-        auth: "rushi:a95960c7de18781e79f0a132205a4dfef-us10"
+        auth: "rushi:95960c7de18781e79f0a132205a4dfef-us10"
     }
 
     const request = https.request(url, options, function(response){
@@ -70,4 +70,5 @@ app.listen(process.env.PORT || 3000, function(){
 }); 
 
 // Api key 95960c7de18781e79f0a132205a4dfef-us10
+// 95960c7de18781e79f0a132205a4dfef-us10
 // list id 4c1a4a0f83
